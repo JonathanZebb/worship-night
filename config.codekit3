@@ -39,6 +39,17 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/socialPreview.jpg": {
+		"ft": 16384,
+		"iS": 262418,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/socialPreview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		}
 	},
 "hooks": [
