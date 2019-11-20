@@ -1,5 +1,33 @@
+@font-face {}body {
+  margin: 0; }
+
+.banner {
+  display: inline-block;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(#FFD601, #FF0001); }
+
+.header {
+  display: inline-block;
+  margin: 128px 0px; }
+
+.content {
+  text-align: center; }
+
+a {
+  color: none;
+  font-style: none; }
+
 h1 {
-  color: white; }
+  color: white;
+  font-size: 64px;
+  font-family: 'Fugaz One', cursive; }
+
+h2 {
+  color: white;
+  font-size: 24px;
+  font-family: 'Fugaz One', cursive; }
 
 p {
   color: orange; }
