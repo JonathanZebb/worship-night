@@ -26,27 +26,27 @@ span.header
 	margin: 96px 0px
 
 h1::selection, h2::selection, a.header::selection
-	background: white
-	color: $orange
+	background: $orange
+	color: white
 		
-
-.content
+div.content
 	text-align: center
-	margin: 96px 0px
+	max-width: 750px
+	margin: 96px auto
 
-.content-background
+div.content-background
 	display: inline-block
 	width: 100%
 	background-color: white
 
-p::selection, br::selection
+p::selection, br::selection, a.content::selection
 	background: $orange
 	color: white
 	opacity: 100%
 	
 a
 	color: inherit
-	text-decoration: inherit
+	//text-decoration: inherit
 
 h1
 	color:  white
