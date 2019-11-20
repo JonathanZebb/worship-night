@@ -1,3 +1,6 @@
+$orange: #FF0001
+$yellow: #FFD601
+
 body
 	margin: 0
 	//background-color: #FFD601
@@ -10,12 +13,17 @@ body
 	//height: 128px
 
 	text-align: center
-	background-image: linear-gradient(#FFD601, #FF0001)
+	background-image: linear-gradient($yellow, $orange)
 	//background-color: orange
 
-.header
+span.header
 	display: inline-block
 	margin: 96px 0px
+
+h1::selection, h2::selection, a.header::selection
+	background: white
+	color: $orange
+		
 
 .content
 	text-align: center
@@ -25,6 +33,11 @@ body
 	display: inline-block
 	width: 100%
 	background-color: white
+
+p::selection, br::selection
+	background: $orange
+	color: white
+	opacity: 100%
 	
 a
 	color: inherit
@@ -41,7 +54,7 @@ h2
 	font-family: 'Fugaz One', cursive
 
 p
-	color:	#FF0001
+	color:	$orange
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300
 	//font-style: italic

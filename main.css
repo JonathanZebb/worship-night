@@ -8,9 +8,13 @@ body {
   text-align: center;
   background-image: linear-gradient(#FFD601, #FF0001); }
 
-.header {
+span.header {
   display: inline-block;
   margin: 96px 0px; }
+
+h1::selection, h2::selection, a.header::selection {
+  background: white;
+  color: #FF0001; }
 
 .content {
   text-align: center;
@@ -20,6 +24,11 @@ body {
   display: inline-block;
   width: 100%;
   background-color: white; }
+
+p::selection, br::selection {
+  background: #FF0001;
+  color: white;
+  opacity: 100%; }
 
 a {
   color: inherit;
