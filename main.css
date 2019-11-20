@@ -1,4 +1,4 @@
-@font-face {}body {
+body {
   margin: 0; }
 
 .banner {
@@ -30,4 +30,4 @@ h2 {
   font-family: 'Fugaz One', cursive; }
 
 p {
-  color: orange; }
+  color: #FF0001; }
